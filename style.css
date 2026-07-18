@@ -105,3 +105,18 @@ footer {
     margin-bottom: 20px;
     filter: drop-shadow(0 0 15px #d4af37);
 }
+/* =========================
+   AMBIANCE DU HALL
+========================= */
+
+.hall::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        circle at center,
+        rgba(212, 175, 55, 0.15),
+        transparent 60%
+    );
+    z-index: 1;
+}
