@@ -75,6 +75,30 @@ footer {
     padding: 25px;
     border-top: 1px solid #c9a227;
     font-size: 0.9em;
+} /* =========================
+   HALL DU PANTHÉON - BASE
+========================= */
+
+.hall {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: #0b0b12;
+}
+
+.contenu-hall {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.contenu-hall h1 {
+    font-size: 3em;
+}
+
+.contenu-hall p {
+    font-size: 1.3em;
 }
 .logo {
     width: 180px;
