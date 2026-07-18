@@ -76,3 +76,8 @@ footer {
     border-top: 1px solid #c9a227;
     font-size: 0.9em;
 }
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 15px #d4af37);
+}
