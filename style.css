@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", serif;
+    background: #111;
+    color: #f5e6b3;
+    text-align: center;
+}
+
+
+/* Entrée du Panthéon */
+
+header {
+    padding: 60px 20px;
+    background: linear-gradient(#1a1a1a, #050505);
+    border-bottom: 2px solid #c9a227;
+}
+
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: #d4af37;
+}
+
+
+h2 {
+    color: #f5e6b3;
+    letter-spacing: 2px;
+}
+
+
+/* Sections */
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+
+section {
+    margin: 40px 0;
+    padding: 30px;
+    border: 1px solid #c9a227;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.05);
+}
+
+
+/* Le Gardien */
+
+.gardien {
+    box-shadow: 0 0 25px rgba(212,175,55,0.3);
+}
+
+
+/* Piliers */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li {
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+
+/* Pied de page */
+
+footer {
+    padding: 25px;
+    border-top: 1px solid #c9a227;
+    font-size: 0.9em;
+}
