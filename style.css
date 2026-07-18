@@ -142,25 +142,42 @@ footer {
    COLONNES DU HALL
 ========================= */
 
-.colonnes {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-}
-
 .colonne {
     position: absolute;
-    width: 55px;
+    width: 70px;
     height: 75%;
     top: 15%;
+
     background: linear-gradient(
         to right,
-        #8f8a7a,
-        #f1ead8,
-        #8f8a7a
+        #77705f,
+        #f4ead2,
+        #b9ae95
     );
-    box-shadow: 
-        0 0 25px rgba(255,255,255,0.25);
+
+    border-radius: 8px 8px 4px 4px;
+
+    box-shadow:
+        inset 8px 0 15px rgba(0,0,0,0.25),
+        0 0 35px rgba(255,255,255,0.25);
+} .colonne::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    width: 100px;
+    height: 20px;
+    background: #e8dcc2;
+}
+
+.colonne::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -15px;
+    width: 100px;
+    height: 20px;
+    background: #cbbd9e;
 }
 .colonne:nth-child(1) {
     left: 8%;
