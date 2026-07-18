@@ -138,6 +138,20 @@ footer {
     );
     z-index: 1;
 }
+.fond-hall {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        #111,
+        #3a2a16
+    );
+    z-index: 0;
+}
 /* =========================
    COLONNES DU HALL
 ========================= */
@@ -194,17 +208,4 @@ footer {
 .colonne:nth-child(4) {
     right: 8%;
 }
-.fond-hall {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    height: 100%;
-    background: linear-gradient(
-        to bottom,
-        #111,
-        #3a2a16
-    );
-    z-index: 0;
-}
+
