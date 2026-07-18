@@ -120,3 +120,21 @@ footer {
     );
     z-index: 1;
 }
+/* =========================
+   SOL DU HALL
+========================= */
+
+.hall::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 45%;
+    background: linear-gradient(
+        to top,
+        rgba(180, 160, 120, 0.25),
+        transparent
+    );
+    z-index: 1;
+}
