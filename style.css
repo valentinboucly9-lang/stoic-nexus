@@ -261,6 +261,29 @@ footer {
     z-index: 2;
 }
 /* =========================
+   LUMIÈRE DIVINE DU SANCTUAIRE
+========================= */
+
+.lumiere-sanctuaire {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 180px;
+    height: 300px;
+
+    background: linear-gradient(
+        to top,
+        rgba(212,175,55,0.35),
+        transparent
+    );
+
+    filter: blur(8px);
+
+    z-index: 1;
+}
+/* =========================
    COLONNES DU HALL
 ========================= */
 
