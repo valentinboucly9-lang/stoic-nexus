@@ -1604,3 +1604,32 @@ footer {
 
     z-index: 2;
 }
+/* =========================
+   PLAQUES DES STATUES
+========================= */
+
+.plaque-statue {
+
+    position: absolute;
+
+    bottom: 5px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 55px;
+    height: 12px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #d4af37,
+            #7a5a20
+        );
+
+    border-radius: 3px;
+
+    box-shadow:
+        0 0 10px rgba(212,175,55,0.5);
+
+}
