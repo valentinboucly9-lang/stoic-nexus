@@ -1824,3 +1824,31 @@ footer {
         translateX(-50%)
         scaleX(1.08);
 }
+/* =========================
+   ENCADREMENT ANTIQUE DES NICHES
+========================= */
+
+.niche::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: -15px;
+    right: -15px;
+    bottom: -10px;
+
+    height: 8px;
+
+    background:
+        linear-gradient(
+            to right,
+            #d4af37,
+            #8b6b35,
+            #d4af37
+        );
+
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.4);
+
+}
