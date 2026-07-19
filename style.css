@@ -671,4 +671,28 @@ footer {
 .colonne:nth-child(4) {
     right: 8%;
 }
+/* =========================
+   ANIMATION DES FLAMMES
+========================= */
 
+@keyframes flamme {
+
+    0% {
+        transform: translateX(-50%) scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.15);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) scale(1);
+        opacity: 0.8;
+    }
+}
+
+.brasero::before {
+    animation: flamme 1.6s infinite ease-in-out;
+}
