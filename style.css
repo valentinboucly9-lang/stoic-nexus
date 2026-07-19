@@ -2267,3 +2267,33 @@ footer {
         0 0 25px rgba(212,175,55,0.4),
         inset 0 0 30px rgba(255,220,120,0.2);
 }
+.rayons-divins{
+    position:absolute;
+    top:120px;
+    left:50%;
+    transform:translateX(-50%);
+    width:250px;
+    height:500px;
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(255,230,150,0.35),
+            transparent 70%
+        );
+    filter:blur(15px);
+    animation:rayonsMouvements 6s infinite alternate;
+}
+
+@keyframes rayonsMouvements{
+
+    0%{
+        opacity:0.4;
+        transform:translateX(-50%) scale(1);
+    }
+
+    100%{
+        opacity:0.8;
+        transform:translateX(-50%) scale(1.1);
+    }
+
+}
