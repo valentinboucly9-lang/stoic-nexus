@@ -2098,3 +2098,16 @@ footer {
         0 0 15px rgba(212,175,55,0.4),
         inset 0 0 10px rgba(0,0,0,0.4);
 }
+.inscription-piedestal{
+    position:absolute;
+    width:100%;
+    bottom:25px;
+    text-align:center;
+    color:#d4af37;
+    font-size:20px;
+    letter-spacing:3px;
+    font-family:Georgia, serif;
+    text-shadow:
+        0 0 8px rgba(212,175,55,0.6);
+    opacity:0.9;
+}
