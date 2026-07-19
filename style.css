@@ -2237,3 +2237,20 @@ footer {
     box-shadow:
         0 0 40px rgba(255,220,120,0.8);
 }
+.rayon-divin{
+    position:absolute;
+    top:115px;
+    left:50%;
+    transform:translateX(-50%);
+    width:35px;
+    height:350px;
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(255,245,200,0.8),
+            rgba(212,175,55,0.25),
+            transparent
+        );
+    filter:blur(6px);
+    opacity:0.7;
+}
