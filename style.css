@@ -2112,6 +2112,45 @@ footer {
     }
 
 }
+.cristal-sagesse{
+    position:absolute;
+    left:50%;
+    bottom:135px;
+    transform:translateX(-50%);
+    width:45px;
+    height:70px;
+    background:linear-gradient(
+        135deg,
+        #fff4c4,
+        #d4af37,
+        #8c6b2f
+    );
+    clip-path:polygon(
+        50% 0%,
+        85% 25%,
+        100% 70%,
+        50% 100%,
+        0% 70%,
+        15% 25%
+    );
+    box-shadow:
+        0 0 20px rgba(255,220,120,0.8);
+    animation:cristalPulse 3s infinite alternate;
+}
+
+@keyframes cristalPulse{
+
+    0%{
+        filter:brightness(1);
+        transform:translateX(-50%) scale(1);
+    }
+
+    100%{
+        filter:brightness(1.4);
+        transform:translateX(-50%) scale(1.08);
+    }
+
+}
 .marche-piedestal{
     position:absolute;
     bottom:80px;
