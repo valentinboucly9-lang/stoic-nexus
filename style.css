@@ -2425,3 +2425,16 @@ footer {
         0 0 35px rgba(212,175,55,0.2),
         inset 0 0 25px rgba(255,220,120,0.1);
 }
+.symbole-stoicisme{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#d4af37;
+    font-size:28px;
+    letter-spacing:5px;
+    font-family:Georgia, serif;
+    text-shadow:
+        0 0 10px rgba(212,175,55,0.7);
+    opacity:0.85;
+}
