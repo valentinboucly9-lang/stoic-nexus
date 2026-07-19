@@ -2732,17 +2732,19 @@ footer {
     top:95px;
     left:50%;
     transform:translateX(-50%);
-    width:35px;
-    height:35px;
+    width:45px;
+    height:45px;
     border-radius:50%;
+    border:2px solid #d4af37;
     background:
         radial-gradient(
             circle,
-            #fff0a8,
-            #d4af37
+            rgba(255,240,180,0.9),
+            rgba(212,175,55,0.4)
         );
     box-shadow:
-        0 0 20px rgba(212,175,55,0.8);
+        0 0 25px rgba(212,175,55,0.9),
+        inset 0 0 10px rgba(255,255,255,0.4);
 }
 .support-miroir{
     position:absolute;
