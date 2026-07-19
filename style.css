@@ -2438,3 +2438,28 @@ footer {
         0 0 10px rgba(212,175,55,0.7);
     opacity:0.85;
 }
+.colonne-sanctuaire{
+    position:absolute;
+    bottom:0;
+    width:35px;
+    height:150px;
+    background:
+        linear-gradient(
+            to right,
+            #d8c9a0,
+            #8c7a55,
+            #d8c9a0
+        );
+    border:2px solid #d4af37;
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.3),
+        inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+.colonne-sanctuaire.gauche{
+    left:40px;
+}
+
+.colonne-sanctuaire.droite{
+    right:40px;
+}
