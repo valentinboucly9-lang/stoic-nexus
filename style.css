@@ -3030,3 +3030,13 @@ footer {
     left: 20px;
     z-index: 9999;
 }
+.hall a[href="antichambre.html"] {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 99999;
+
+    color: #d4af37;
+    font-size: 18px;
+    text-decoration: none;
+}
