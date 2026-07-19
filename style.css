@@ -1017,3 +1017,32 @@ footer {
         opacity: 0.5;
     }
 }
+/* =========================
+   VOUTE DU PANTHÉON
+========================= */
+
+.voute-pantheon {
+
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 70%;
+    height: 220px;
+
+    background:
+        radial-gradient(
+            ellipse at center top,
+            rgba(212,175,55,0.18),
+            transparent 70%
+        );
+
+    border-radius: 0 0 50% 50%;
+
+    z-index: 1;
+
+    pointer-events: none;
+}
