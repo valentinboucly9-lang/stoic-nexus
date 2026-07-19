@@ -1432,3 +1432,31 @@ footer {
         0 0 35px rgba(212,175,55,0.35),
         inset 0 0 25px rgba(255,220,120,0.15);
 }
+/* =========================
+   MARCHE BASSE DU SANCTUAIRE
+========================= */
+
+.marche-basse {
+
+    position: absolute;
+
+    bottom: 4%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 360px;
+    height: 25px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #d8cdb5,
+            #766850
+        );
+
+    box-shadow:
+        0 0 25px rgba(212,175,55,0.25);
+
+    z-index: 2;
+}
