@@ -1808,3 +1808,19 @@ footer {
         0 0 25px rgba(255,220,120,0.35);
 
 }
+/* =========================
+   POSTURES DES PHILOSOPHES
+========================= */
+
+.niche-gauche .statue-philosophe {
+    transform:
+        translateX(-50%)
+        scaleX(0.95);
+}
+
+
+.niche-droite .statue-philosophe {
+    transform:
+        translateX(-50%)
+        scaleX(1.08);
+}
