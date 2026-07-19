@@ -1906,3 +1906,16 @@ footer {
     filter: blur(5px);
 
 }
+/* =========================
+   AURA DES PHILOSOPHES
+========================= */
+
+.niche-gauche .statue-philosophe,
+.niche-droite .statue-philosophe {
+
+    filter:
+        drop-shadow(
+            0 0 15px rgba(212,175,55,0.35)
+        );
+
+}
