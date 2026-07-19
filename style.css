@@ -2059,3 +2059,25 @@ footer {
 .citation-platon{
     animation-delay:2.7s;
 }
+.piedestal-central{
+    position:absolute;
+    left:50%;
+    bottom:80px;
+    transform:translateX(-50%);
+    width:220px;
+    height:80px;
+}
+
+.socle-piedestal{
+    width:220px;
+    height:80px;
+    background:linear-gradient(
+        to bottom,
+        #d8c9a0,
+        #8c7a55
+    );
+    border:3px solid #d4af37;
+    box-shadow:
+        0 0 20px rgba(212,175,55,0.5),
+        inset 0 0 15px rgba(0,0,0,0.5);
+}
