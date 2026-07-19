@@ -152,6 +152,29 @@ footer {
 );
     z-index: 0;
 }
+/* =========================
+   ALLÉE CENTRALE DU PANTHÉON
+========================= */
+
+.allee-centrale {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
+    height: 70%;
+    
+    background: linear-gradient(
+        to bottom,
+        #d8cdb5,
+        #8f8065
+    );
+
+    box-shadow:
+        0 0 40px rgba(212,175,55,0.25);
+
+    z-index: 1;
+}
 .plafond-hall {
     position: absolute;
     top: 0;
