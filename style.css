@@ -388,6 +388,25 @@ footer {
     z-index: 2;
 }
 /* =========================
+   ORNEMENT ANTIQUE DU MIROIR
+========================= */
+
+.miroir-divin::before {
+    content: "";
+    position: absolute;
+
+    inset: -12px;
+
+    border: 2px solid rgba(212,175,55,0.7);
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.5);
+
+    z-index: -1;
+}
+/* =========================
    MIROIR DIVIN DU GARDIEN
 ========================= */
 
