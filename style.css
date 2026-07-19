@@ -995,3 +995,25 @@ footer {
 
     pointer-events: none;
 }
+/* =========================
+   RESPIRATION DES RAYONS DIVINS
+========================= */
+
+.rayons-divins {
+    animation: rayons-souffle 8s ease-in-out infinite;
+}
+
+@keyframes rayons-souffle {
+
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
