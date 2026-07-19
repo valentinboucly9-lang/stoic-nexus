@@ -2283,7 +2283,41 @@ footer {
     filter:blur(15px);
     animation:rayonsMouvements 6s infinite alternate;
 }
+.particules-lumiere{
+    position:absolute;
+    top:150px;
+    left:50%;
+    transform:translateX(-50%);
+    width:300px;
+    height:350px;
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,245,200,0.7) 1px,
+            transparent 2px
+        );
+    background-size:40px 40px;
+    opacity:0.35;
+    animation:poussieresLumiere 8s infinite linear;
+}
 
+@keyframes poussieresLumiere{
+
+    0%{
+        background-position:0 0;
+        opacity:0.25;
+    }
+
+    50%{
+        opacity:0.5;
+    }
+
+    100%{
+        background-position:0 120px;
+        opacity:0.25;
+    }
+
+}
 @keyframes rayonsMouvements{
 
     0%{
