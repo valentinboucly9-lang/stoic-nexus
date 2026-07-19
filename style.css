@@ -895,3 +895,50 @@ footer {
         inset -10px 0 20px rgba(255,255,255,0.25),
         0 0 45px rgba(255,255,255,0.25);
 }
+/* =========================
+   PARTICULES DE LUMIÈRE
+========================= */
+
+.particules-lumiere {
+    position: absolute;
+
+    top: 15%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 70%;
+    height: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,220,120,0.35) 2px,
+            transparent 3px
+        );
+
+    background-size: 80px 80px;
+
+    opacity: 0.35;
+
+    animation: poussiere 12s linear infinite;
+
+    z-index: 2;
+
+    pointer-events: none;
+}
+
+@keyframes poussiere {
+
+    from {
+        transform:
+            translateX(-50%)
+            translateY(0);
+    }
+
+    to {
+        transform:
+            translateX(-50%)
+            translateY(-40px);
+    }
+}
