@@ -1852,3 +1852,22 @@ footer {
         0 0 15px rgba(212,175,55,0.4);
 
 }
+/* =========================
+   TEXTURE MARBRE STATUES
+========================= */
+
+.statue-philosophe {
+
+    background:
+        linear-gradient(
+            135deg,
+            #f4ead2,
+            #b9ae95,
+            #eee5d0
+        );
+
+    filter:
+        drop-shadow(
+            0 0 8px rgba(255,220,120,0.25)
+        );
+}
