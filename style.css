@@ -313,6 +313,27 @@ footer {
     z-index: 2;
 }
 /* =========================
+   INSCRIPTION DU GARDIEN
+========================= */
+
+.inscription-gardien {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100%;
+
+    color: #d4af37;
+
+    font-family: "Georgia", serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+
+    text-shadow:
+        0 0 8px rgba(212,175,55,0.8);
+}
+/* =========================
    SILHOUETTE DU GARDIEN STOÏC
 ========================= */
 
