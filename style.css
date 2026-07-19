@@ -1421,3 +1421,14 @@ footer {
 
     z-index: -1;
 }
+/* =========================
+   CADRE SACRÉ DU SANCTUAIRE
+========================= */
+
+.sanctuaire-central {
+    border: 2px solid rgba(212,175,55,0.35);
+
+    box-shadow:
+        0 0 35px rgba(212,175,55,0.35),
+        inset 0 0 25px rgba(255,220,120,0.15);
+}
