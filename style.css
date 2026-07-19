@@ -696,3 +696,29 @@ footer {
 .brasero::before {
     animation: flamme 1.6s infinite ease-in-out;
 }
+/* =========================
+   LUMIÈRE DU MIROIR DIVIN
+========================= */
+
+@keyframes aura-miroir {
+
+    0% {
+        box-shadow:
+            0 0 25px rgba(212,175,55,0.5);
+    }
+
+    50% {
+        box-shadow:
+            0 0 50px rgba(255,215,120,0.9),
+            0 0 90px rgba(212,175,55,0.5);
+    }
+
+    100% {
+        box-shadow:
+            0 0 25px rgba(212,175,55,0.5);
+    }
+}
+
+.miroir-divin {
+    animation: aura-miroir 3s ease-in-out infinite;
+}
