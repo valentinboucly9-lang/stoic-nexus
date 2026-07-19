@@ -2943,3 +2943,28 @@ footer {
     box-shadow:
         0 0 30px rgba(212,175,55,0.9);
 }
+.niches-pantheon{
+    position:absolute;
+    top:180px;
+    left:50%;
+    transform:translateX(-50%);
+    width:900px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.niche{
+    width:220px;
+    height:420px;
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(212,175,55,0.15),
+            rgba(20,20,15,0.95)
+        );
+    border-radius:120px 120px 20px 20px;
+    border:2px solid rgba(212,175,55,0.4);
+    box-shadow:
+        inset 0 0 30px rgba(0,0,0,0.8),
+        0 0 20px rgba(212,175,55,0.2);
+}
