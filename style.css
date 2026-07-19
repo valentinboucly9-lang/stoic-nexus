@@ -2838,3 +2838,14 @@ footer {
 .oeil-gardien.droit{
     right:15px;
 }
+.visage-gardien::after{
+    content:"";
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+    width:25px;
+    height:5px;
+    border-bottom:2px solid rgba(80,60,40,0.6);
+    border-radius:50%;
+}
