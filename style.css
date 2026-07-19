@@ -2618,3 +2618,21 @@ footer {
         0 0 30px rgba(212,175,55,0.4),
         inset 0 0 20px rgba(0,0,0,0.4);
 }
+.gardien-stoic::before{
+    content:"";
+    position:absolute;
+    top:-45px;
+    left:50%;
+    transform:translateX(-50%);
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:
+        radial-gradient(
+            circle,
+            #d8c9a0,
+            #8c7a55
+        );
+    box-shadow:
+        0 0 20px rgba(212,175,55,0.3);
+}
