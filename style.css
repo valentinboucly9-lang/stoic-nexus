@@ -2636,3 +2636,21 @@ footer {
     box-shadow:
         0 0 20px rgba(212,175,55,0.3);
 }
+.gardien-stoic::after{
+    content:"";
+    position:absolute;
+    top:-60px;
+    left:50%;
+    transform:translateX(-50%);
+    width:85px;
+    height:35px;
+    background:
+        linear-gradient(
+            to bottom,
+            #d4af37,
+            #8c6b2f
+        );
+    border-radius:50% 50% 20% 20%;
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.5);
+}
