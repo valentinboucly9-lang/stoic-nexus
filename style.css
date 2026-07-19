@@ -211,6 +211,32 @@ footer {
     pointer-events: none;
 }
 /* =========================
+   SANCTUAIRE CENTRAL
+========================= */
+
+.sanctuaire-central {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 220px;
+    height: 80px;
+
+    background: linear-gradient(
+        to bottom,
+        #e0d4b8,
+        #8f8065
+    );
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 0 35px rgba(212,175,55,0.35);
+
+    z-index: 2;
+}
+/* =========================
    COLONNES DU HALL
 ========================= */
 
