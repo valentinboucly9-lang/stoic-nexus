@@ -2781,3 +2781,21 @@ footer {
         0 0 30px rgba(180,220,255,0.8),
         0 0 20px rgba(212,175,55,0.6);
 }
+.sceau-gardien{
+    position:absolute;
+    bottom:310px;
+    left:50%;
+    transform:translateX(-50%);
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    border:3px solid #d4af37;
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,240,180,0.8),
+            rgba(212,175,55,0.3)
+        );
+    box-shadow:
+        0 0 20px rgba(212,175,55,0.8);
+}
