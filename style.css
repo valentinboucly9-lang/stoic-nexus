@@ -2918,3 +2918,28 @@ footer {
     color:#f5e6b3;
     font-family:Georgia, serif;
 }
+.porte-voie{
+    margin-top:20px;
+    padding:10px 25px;
+    background:
+        linear-gradient(
+            to bottom,
+            #d4af37,
+            #8c6b2f
+        );
+    color:#111;
+    border:none;
+    border-radius:20px;
+    font-family:Georgia, serif;
+    font-size:16px;
+    cursor:pointer;
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.5);
+    transition:0.3s;
+}
+
+.porte-voie:hover{
+    transform:scale(1.08);
+    box-shadow:
+        0 0 30px rgba(212,175,55,0.9);
+}
