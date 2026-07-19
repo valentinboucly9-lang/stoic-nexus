@@ -722,3 +722,27 @@ footer {
 .miroir-divin {
     animation: aura-miroir 3s ease-in-out infinite;
 }
+/* =========================
+   HALO DU GARDIEN
+========================= */
+
+.halo-gardien {
+    position: absolute;
+
+    bottom: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 220px;
+    height: 70px;
+
+    background: radial-gradient(
+        ellipse,
+        rgba(212,175,55,0.35),
+        transparent 70%
+    );
+
+    filter: blur(12px);
+
+    z-index: 1;
+}
