@@ -1297,3 +1297,41 @@ footer {
         transform: scale(0.9);
     }
 }
+/* =========================
+   TORCHES SACRÉES
+========================= */
+
+.torche-gauche,
+.torche-droite {
+
+    position: absolute;
+
+    bottom: 22%;
+
+    width: 35px;
+    height: 75px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #6b5a3b,
+            #222
+        );
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 0 20px rgba(212,175,55,0.3);
+
+    z-index: 3;
+}
+
+
+.torche-gauche {
+    left: 35%;
+}
+
+
+.torche-droite {
+    right: 35%;
+}
