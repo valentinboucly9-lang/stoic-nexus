@@ -967,3 +967,31 @@ footer {
             drop-shadow(0 0 15px rgba(212,175,55,0.5));
     }
 }
+/* =========================
+   REFLET DU MIROIR DIVIN
+========================= */
+
+.miroir-divin::after {
+
+    content: "";
+
+    position: absolute;
+
+    top: 15%;
+    left: 20%;
+
+    width: 30%;
+    height: 50%;
+
+    background: linear-gradient(
+        135deg,
+        rgba(255,255,255,0.6),
+        transparent
+    );
+
+    border-radius: 50%;
+
+    opacity: 0.5;
+
+    pointer-events: none;
+}
