@@ -1335,3 +1335,60 @@ footer {
 .torche-droite {
     right: 35%;
 }
+/* =========================
+   FLAMMES DES TORCHES
+========================= */
+
+.torche-gauche::before,
+.torche-droite::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: -25px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 22px;
+    height: 35px;
+
+    background:
+        radial-gradient(
+            circle,
+            #ffd34d,
+            #ff7a00,
+            transparent
+        );
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 25px rgba(255,180,0,0.9);
+
+    animation:
+        flamme-torche 1.5s ease-in-out infinite;
+}
+
+
+@keyframes flamme-torche {
+
+    0% {
+        transform:
+            translateX(-50%)
+            scale(1);
+    }
+
+    50% {
+        transform:
+            translateX(-50%)
+            scale(1.2);
+    }
+
+    100% {
+        transform:
+            translateX(-50%)
+            scale(1);
+    }
+}
