@@ -336,6 +336,28 @@ footer {
     z-index: 3;
 }
 /* =========================
+   SYMBOLE DU GARDIEN STOÏC
+========================= */
+
+.symbole-gardien {
+    position: absolute;
+    bottom: 39%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 25px;
+    height: 25px;
+
+    background: #d4af37;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 25px rgba(212,175,55,0.8);
+
+    z-index: 4;
+}
+/* =========================
    COLONNES DU HALL
 ========================= */
 
