@@ -1919,3 +1919,27 @@ footer {
         );
 
 }
+/* =========================
+   SYMBOLE DE SOCRATE
+========================= */
+
+.symbole-socrate {
+
+    position: absolute;
+
+    bottom: 85px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 18px;
+    height: 18px;
+
+    border: 2px solid #d4af37;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.7);
+
+}
