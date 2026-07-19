@@ -152,6 +152,19 @@ footer {
 );
     z-index: 0;
 }
+.plafond-hall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.8),
+        transparent
+    );
+    z-index: 1;
+}
 /* =========================
    COLONNES DU HALL
 ========================= */
