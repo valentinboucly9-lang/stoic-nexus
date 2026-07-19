@@ -2010,6 +2010,16 @@ footer {
     text-shadow:
         0 0 8px rgba(212,175,55,0.4);
 }
+.citation-socrate{
+    margin-top:15px;
+    color:#d4af37;
+    font-size:18px;
+    font-style:italic;
+    text-align:center;
+    opacity:0.9;
+    text-shadow:
+        0 0 8px rgba(212,175,55,0.4);
+}
 @keyframes revelationSagesse{
 
     0%{
