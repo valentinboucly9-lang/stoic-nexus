@@ -1759,3 +1759,34 @@ footer {
     box-shadow:
         0 0 15px rgba(212,175,55,0.25);
 }
+/* =========================
+   DRAPÉ ANTIQUE DES STATUES
+========================= */
+
+.statue-philosophe::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    bottom: 15px;
+
+    transform: translateX(-50%);
+
+    width: 55px;
+    height: 70px;
+
+    background:
+        linear-gradient(
+            to right,
+            rgba(255,255,255,0.15),
+            rgba(100,90,70,0.25),
+            rgba(255,255,255,0.15)
+        );
+
+    border-radius:
+        20px 20px 5px 5px;
+
+    opacity: 0.8;
+}
