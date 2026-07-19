@@ -2873,3 +2873,19 @@ footer {
 .torche-droite{
     right:calc(50% - 220px);
 }
+.message-gardien{
+    position:absolute;
+    bottom:80px;
+    left:50%;
+    transform:translateX(-50%);
+    width:600px;
+    text-align:center;
+    color:#f5e6b3;
+    font-family:Georgia, serif;
+    font-size:18px;
+    line-height:1.6;
+    letter-spacing:1px;
+    text-shadow:
+        0 0 10px rgba(212,175,55,0.5);
+    opacity:0.9;
+}
