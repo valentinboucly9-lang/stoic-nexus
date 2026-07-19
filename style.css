@@ -2889,3 +2889,13 @@ footer {
         0 0 10px rgba(212,175,55,0.5);
     opacity:0.9;
 }
+.voies-gardien{
+    position:absolute;
+    bottom:-120px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:40px;
+    width:900px;
+    justify-content:center;
+}
