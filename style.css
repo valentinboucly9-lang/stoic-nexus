@@ -1698,3 +1698,34 @@ footer {
     text-shadow:
         0 0 5px rgba(212,175,55,0.8);
 }
+/* =========================
+   SILHOUETTE STATUE PHILOSOPHE
+========================= */
+
+.statue-philosophe {
+
+    position: absolute;
+
+    bottom: 45px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 45px;
+    height: 120px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #eee5d0,
+            #8f8065
+        );
+
+    border-radius:
+        20px 20px 8px 8px;
+
+    box-shadow:
+        0 0 20px rgba(212,175,55,0.25);
+
+    z-index: 3;
+}
