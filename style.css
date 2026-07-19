@@ -2536,3 +2536,34 @@ footer {
     }
 
 }
+.lumiere-sanctuaire{
+    position:absolute;
+    bottom:160px;
+    left:50%;
+    transform:translateX(-50%);
+    width:500px;
+    height:300px;
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(255,230,150,0.25),
+            transparent 70%
+        );
+    filter:blur(20px);
+    opacity:0.8;
+    animation:lumiereSanctuairePulse 5s infinite alternate;
+}
+
+@keyframes lumiereSanctuairePulse{
+
+    0%{
+        opacity:0.5;
+        transform:translateX(-50%) scale(1);
+    }
+
+    100%{
+        opacity:0.9;
+        transform:translateX(-50%) scale(1.1);
+    }
+
+}
