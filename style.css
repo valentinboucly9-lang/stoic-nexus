@@ -877,3 +877,21 @@ footer {
         opacity: 0.6;
     }
 }
+/* =========================
+   RELIEF DES COLONNES
+========================= */
+
+.colonne {
+    background:
+        linear-gradient(
+            to right,
+            #5f594c,
+            #f4ead2,
+            #9e947d
+        );
+
+    box-shadow:
+        inset 10px 0 20px rgba(0,0,0,0.35),
+        inset -10px 0 20px rgba(255,255,255,0.25),
+        0 0 45px rgba(255,255,255,0.25);
+}
