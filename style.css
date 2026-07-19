@@ -2744,3 +2744,21 @@ footer {
     box-shadow:
         0 0 20px rgba(212,175,55,0.8);
 }
+.support-miroir{
+    position:absolute;
+    bottom:230px;
+    left:50%;
+    transform:translateX(-50%);
+    width:120px;
+    height:25px;
+    background:
+        linear-gradient(
+            to bottom,
+            #d8c9a0,
+            #8c7a55
+        );
+    border:2px solid #d4af37;
+    border-radius:10px;
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.4);
+}
