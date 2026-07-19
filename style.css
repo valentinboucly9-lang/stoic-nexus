@@ -2703,3 +2703,27 @@ footer {
     box-shadow:
         0 0 20px rgba(212,175,55,0.3);
 }
+.bras-gardien{
+    position:absolute;
+    top:80px;
+    width:35px;
+    height:120px;
+    background:
+        linear-gradient(
+            to right,
+            #d8c9a0,
+            #8c7a55
+        );
+    border:2px solid #d4af37;
+    border-radius:20px;
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.3);
+}
+
+.bras-gardien.gauche{
+    left:5px;
+}
+
+.bras-gardien.droit{
+    right:5px;
+}
