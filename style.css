@@ -2654,3 +2654,14 @@ footer {
     box-shadow:
         0 0 15px rgba(212,175,55,0.5);
 }
+.gardien-stoic{
+    overflow:visible;
+}
+
+.gardien-stoic .armure{
+    display:none;
+}
+
+.gardien-stoic::marker{
+    display:none;
+}
