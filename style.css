@@ -1392,3 +1392,32 @@ footer {
             scale(1);
     }
 }
+/* =========================
+   OMBRE DU GARDIEN
+========================= */
+
+.gardien-stoic::after {
+
+    content: "";
+
+    position: absolute;
+
+    bottom: -15px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 100px;
+    height: 25px;
+
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(0,0,0,0.6),
+            transparent
+        );
+
+    filter: blur(8px);
+
+    z-index: -1;
+}
