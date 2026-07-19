@@ -2818,3 +2818,21 @@ footer {
         0 0 15px rgba(212,175,55,0.3),
         inset 0 0 10px rgba(0,0,0,0.3);
 }
+.oeil-gardien{
+    position:absolute;
+    top:28px;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:#fff0a8;
+    box-shadow:
+        0 0 12px rgba(255,240,168,0.9);
+}
+
+.oeil-gardien.gauche{
+    left:15px;
+}
+
+.oeil-gardien.droit{
+    right:15px;
+}
