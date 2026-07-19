@@ -361,6 +361,33 @@ footer {
     z-index: 4;
 }
 /* =========================
+   SUPPORT DU MIROIR DIVIN
+========================= */
+
+.support-miroir {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 35px;
+    height: 70px;
+
+    background: linear-gradient(
+        to right,
+        #6b4f1d,
+        #d4af37,
+        #6b4f1d
+    );
+
+    border-radius: 5px;
+
+    box-shadow:
+        0 0 20px rgba(212,175,55,0.4);
+
+    z-index: 2;
+}
+/* =========================
    MIROIR DIVIN DU GARDIEN
 ========================= */
 
