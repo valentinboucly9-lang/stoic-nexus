@@ -284,6 +284,32 @@ footer {
     z-index: 1;
 }
 /* =========================
+   SOCLE DU GARDIEN STOÏC
+========================= */
+
+.socle-gardien {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 140px;
+    height: 35px;
+
+    background: linear-gradient(
+        to bottom,
+        #e0d4b8,
+        #75664e
+    );
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 0 30px rgba(212,175,55,0.3);
+
+    z-index: 2;
+}
+/* =========================
    SILHOUETTE DU GARDIEN STOÏC
 ========================= */
 
