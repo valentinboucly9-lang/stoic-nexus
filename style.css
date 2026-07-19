@@ -1145,3 +1145,39 @@ footer {
         0 0 25px rgba(212,175,55,0.35),
         inset 0 0 20px rgba(255,255,255,0.15);
 }
+/* =========================
+   PORTES ANTIQUES DES VOIES
+========================= */
+
+.porte-voie {
+
+    position: relative;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #e6c45c,
+            #8b6b35
+        );
+
+    border: 2px solid #f5e6b3;
+
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.5),
+        inset 0 0 10px rgba(0,0,0,0.4);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.porte-voie:hover {
+
+    transform: scale(1.08);
+
+    box-shadow:
+        0 0 35px rgba(212,175,55,0.9),
+        inset 0 0 15px rgba(255,255,255,0.3);
+}
