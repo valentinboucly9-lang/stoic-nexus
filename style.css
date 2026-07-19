@@ -2151,6 +2151,27 @@ footer {
     }
 
 }
+.cristal-sagesse{
+    animation:
+        cristalPulse 3s infinite alternate,
+        flottementSagesse 4s infinite ease-in-out;
+}
+
+@keyframes flottementSagesse{
+
+    0%{
+        margin-top:0px;
+    }
+
+    50%{
+        margin-top:-12px;
+    }
+
+    100%{
+        margin-top:0px;
+    }
+
+}
 .marche-piedestal{
     position:absolute;
     bottom:80px;
