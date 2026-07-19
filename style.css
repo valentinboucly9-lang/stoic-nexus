@@ -1460,3 +1460,36 @@ footer {
 
     z-index: 2;
 }
+/* =========================
+   GRAVURES DES MARCHES
+========================= */
+
+.marches-sanctuaire,
+.marche-basse {
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.marches-sanctuaire::after,
+.marche-basse::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        repeating-linear-gradient(
+            to right,
+            transparent 0px,
+            transparent 35px,
+            rgba(212,175,55,0.18) 37px
+        );
+
+    opacity: 0.6;
+
+    pointer-events: none;
+}
