@@ -2971,3 +2971,30 @@ footer {
 .niches-pantheon{
     width:1100px;
 }
+.autel-sagesse {
+    width: 140px;
+    height: 80px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        145deg,
+        #8c7a5a,
+        #d4c19c,
+        #6b5a3c
+    );
+
+    color: #f5e6b3;
+    font-size: 28px;
+    font-family: Georgia, serif;
+    letter-spacing: 5px;
+
+    border: 3px solid #d4af37;
+    border-radius: 10px;
+
+    box-shadow:
+        0 0 20px rgba(212,175,55,0.6),
+        inset 0 0 15px rgba(0,0,0,0.5);
+}
