@@ -2799,3 +2799,22 @@ footer {
     box-shadow:
         0 0 20px rgba(212,175,55,0.8);
 }
+.visage-gardien{
+    position:absolute;
+    top:-35px;
+    left:50%;
+    transform:translateX(-50%);
+    width:55px;
+    height:65px;
+    background:
+        linear-gradient(
+            to bottom,
+            #d8c9a0,
+            #8c7a55
+        );
+    border-radius:45% 45% 40% 40%;
+    border:2px solid #d4af37;
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.3),
+        inset 0 0 10px rgba(0,0,0,0.3);
+}
