@@ -1046,3 +1046,34 @@ footer {
 
     pointer-events: none;
 }
+/* =========================
+   ROSACE DU PLAFOND
+========================= */
+
+.rosace-plafond {
+
+    position: absolute;
+
+    top: 8%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 90px;
+    height: 90px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            #d4af37,
+            rgba(212,175,55,0.2),
+            transparent 70%
+        );
+
+    box-shadow:
+        0 0 35px rgba(212,175,55,0.6);
+
+    z-index: 2;
+}
