@@ -797,3 +797,29 @@ footer {
 
     pointer-events: none;
 }
+/* =========================
+   GRAVURES ANTIQUES DU SOL
+========================= */
+
+.gravures-sol {
+    position: absolute;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 25%;
+    height: 70%;
+
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0px,
+            transparent 90px,
+            rgba(212,175,55,0.12) 92px
+        );
+
+    z-index: 2;
+
+    pointer-events: none;
+}
