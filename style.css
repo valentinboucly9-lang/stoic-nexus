@@ -1235,3 +1235,25 @@ footer {
 
     z-index: 4;
 }
+/* =========================
+   ROTATION DU SCEAU
+========================= */
+
+.sceau-gardien {
+    animation: rotation-sceau 12s linear infinite;
+}
+
+@keyframes rotation-sceau {
+
+    from {
+        transform:
+            translateX(-50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translateX(-50%)
+            rotate(360deg);
+    }
+}
