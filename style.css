@@ -1549,3 +1549,27 @@ footer {
 .niche-droite {
     right: 12%;
 }
+/* =========================
+   PROFONDEUR DES NICHES
+========================= */
+
+.niche::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 15px;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(0,0,0,0.75),
+            transparent 70%
+        );
+
+    border-radius:
+        50px 50px 10px 10px;
+
+    z-index: -1;
+}
