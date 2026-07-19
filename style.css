@@ -2010,3 +2010,42 @@ footer {
     text-shadow:
         0 0 8px rgba(212,175,55,0.4);
 }
+@keyframes revelationSagesse{
+
+    0%{
+        opacity:0;
+        transform:translateY(25px);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+.symbole-socrate,
+.symbole-platon,
+.citation-socrate,
+.citation-platon{
+
+    opacity:0;
+    animation:revelationSagesse 2.5s ease forwards;
+
+}
+
+.symbole-socrate{
+    animation-delay:0.5s;
+}
+
+.citation-socrate{
+    animation-delay:1.2s;
+}
+
+.symbole-platon{
+    animation-delay:2s;
+}
+
+.citation-platon{
+    animation-delay:2.7s;
+}
