@@ -1729,3 +1729,33 @@ footer {
 
     z-index: 3;
 }
+/* =========================
+   TÊTE DES STATUES
+========================= */
+
+.statue-philosophe::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: -25px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 35px;
+    height: 35px;
+
+    background:
+        radial-gradient(
+            circle,
+            #eee5d0,
+            #8f8065
+        );
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 15px rgba(212,175,55,0.25);
+}
