@@ -823,3 +823,35 @@ footer {
 
     pointer-events: none;
 }
+/* =========================
+   AURA DES TROIS PORTES
+========================= */
+
+.voie {
+    position: relative;
+    overflow: hidden;
+}
+
+.voie::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: radial-gradient(
+        circle at center,
+        rgba(212,175,55,0.18),
+        transparent 70%
+    );
+
+    opacity: 0;
+
+    transition: opacity 0.5s ease;
+
+    pointer-events: none;
+}
+
+.voie:hover::before {
+    opacity: 1;
+}
