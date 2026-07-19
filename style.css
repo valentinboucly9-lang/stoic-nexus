@@ -178,6 +178,42 @@ footer {
     line-height: 1.6;
 }
 /* =========================
+   PORTES DES VOIES
+========================= */
+
+.porte-voie {
+
+    margin-top: 20px;
+
+    padding: 12px 30px;
+
+    background: linear-gradient(
+        to bottom,
+        #d4af37,
+        #8b6b35
+    );
+
+    border: none;
+
+    border-radius: 10px;
+
+    color: #111;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.porte-voie:hover {
+
+    transform: scale(1.05);
+
+    box-shadow:
+        0 0 20px rgba(212,175,55,0.7);
+}
+/* =========================
    AMBIANCE DU HALL
 ========================= */
 
