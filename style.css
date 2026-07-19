@@ -855,3 +855,25 @@ footer {
 .voie:hover::before {
     opacity: 1;
 }
+/* =========================
+   RESPIRATION DU PANTHÉON
+========================= */
+
+.hall::before {
+    animation: souffle-lumiere 6s ease-in-out infinite;
+}
+
+@keyframes souffle-lumiere {
+
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}
