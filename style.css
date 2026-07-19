@@ -103,6 +103,27 @@ footer {
 .contenu-hall p {
     font-size: 1.3em;
 }
+/* =========================
+   MESSAGE DU GARDIEN
+========================= */
+
+.message-gardien {
+    margin: 40px auto;
+    max-width: 600px;
+
+    padding: 25px;
+
+    border-left: 2px solid #d4af37;
+    border-right: 2px solid #d4af37;
+
+    background: rgba(0,0,0,0.35);
+
+    font-style: italic;
+    font-size: 1.2em;
+
+    box-shadow:
+        0 0 25px rgba(212,175,55,0.25);
+}
 .logo {
     width: 180px;
     margin-bottom: 20px;
