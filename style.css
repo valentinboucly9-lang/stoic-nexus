@@ -4873,3 +4873,78 @@ section {
     backface-visibility:hidden;
 
 }
+/* =========================
+   LOT 27 — GARDIEN FINAL
+========================= */
+
+
+/* Corps du Gardien */
+
+.gardien-stoic {
+
+    position:relative;
+
+    z-index:5;
+
+    transform-style:preserve-3d;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+/* Aura du Gardien */
+
+.gardien-stoic::before {
+
+    content:"";
+
+    position:absolute;
+
+    inset:-40px;
+
+
+    background:
+
+        radial-gradient(
+            circle,
+            rgba(212,175,55,0.22),
+            transparent 70%
+        );
+
+
+    z-index:-1;
+
+    pointer-events:none;
+
+}
+
+
+/* Stabilisation du socle */
+
+.socle-piedestal {
+
+    position:relative;
+
+    transform-style:preserve-3d;
+
+    z-index:6;
+
+}
+
+
+/* Inscription sacrée */
+
+.inscription-piedestal {
+
+    position:relative;
+
+    z-index:7;
+
+    text-align:center;
+
+}
