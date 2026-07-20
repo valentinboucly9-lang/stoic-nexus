@@ -4294,3 +4294,39 @@ section {
     border-radius:4px;
 
 }
+/* =========================
+   LOT 14 — TEXTURE DU SANCTUAIRE
+========================= */
+
+
+/* Texture générale des éléments anciens */
+
+.colonne,
+.socle-piedestal,
+.plaque-statue {
+
+    background-blend-mode:multiply;
+
+}
+
+
+/* Contraste pierre antique */
+
+.colonne {
+
+    filter:
+
+        contrast(1.08)
+
+        brightness(0.95);
+
+}
+
+
+/* Accent métal ancien */
+
+.inscription-piedestal {
+
+    opacity:0.95;
+
+}
