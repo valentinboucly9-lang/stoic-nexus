@@ -3804,3 +3804,42 @@ section {
     z-index: 10;
 
 }
+/* =========================
+   LOT 1 — FINALISATION DU GARDIEN
+========================= */
+
+
+/* Liaison avec le sol du Panthéon */
+
+.gardien-stoic {
+
+    transform-origin:center bottom;
+
+}
+
+
+/* Stabilisation des effets lumineux */
+
+.gardien-stoic {
+
+    isolation:isolate;
+
+}
+
+
+/* Profondeur visuelle du sanctuaire */
+
+.gardien-stoic {
+
+    transform-style:preserve-3d;
+
+}
+
+
+/* Cohérence des couches */
+
+.gardien-stoic {
+
+    overflow:visible;
+
+}
