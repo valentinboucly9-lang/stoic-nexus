@@ -3915,3 +3915,47 @@ section {
     z-index:1;
 
 }
+/* =========================
+   LOT 4 — SYMBOLES ET INSCRIPTIONS
+========================= */
+
+
+/* Cohérence des inscriptions */
+
+.inscription-piedestal {
+
+    text-transform:uppercase;
+
+    font-weight:bold;
+
+}
+
+
+/* Présence des éléments symboliques */
+
+.symbole-panthenon {
+
+    position:relative;
+
+    z-index:6;
+
+    filter:
+
+        drop-shadow(
+            0 0 12px rgba(212,175,55,0.4)
+        );
+
+}
+
+
+/* Harmonisation des plaques */
+
+.plaque-statue {
+
+    color:#f5e6b3;
+
+    text-shadow:
+
+        0 0 10px rgba(212,175,55,0.6);
+
+}
