@@ -4037,3 +4037,37 @@ section {
     transform:translateZ(0);
 
 }
+/* =========================
+   LOT 7 — VOLUMES ARCHITECTURAUX
+========================= */
+
+
+/* Relief des colonnes */
+
+.colonne {
+
+    box-shadow:
+
+        inset 0 0 20px rgba(0,0,0,0.35),
+
+        0 0 15px rgba(212,175,55,0.15);
+
+}
+
+
+/* Relief des éléments de pierre */
+
+.socle-piedestal {
+
+    transform-style:preserve-3d;
+
+}
+
+
+/* Cohérence des volumes */
+
+.contenu-hall {
+
+    transform-style:preserve-3d;
+
+}
