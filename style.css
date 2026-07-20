@@ -2444,3 +2444,79 @@ section {
     }
 
 }
+/* =========================
+   HALO DU GARDIEN STOÏC
+========================= */
+
+.halo-gardien {
+
+    position:absolute;
+
+    bottom:170px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+
+    width:260px;
+
+    height:260px;
+
+
+    border-radius:50%;
+
+
+    background:
+
+        radial-gradient(
+            circle,
+            rgba(255,230,150,0.35),
+            transparent 70%
+        );
+
+
+    filter:blur(10px);
+
+
+    opacity:0.8;
+
+
+    animation:
+
+        haloPulse 5s infinite alternate;
+
+
+    z-index:5;
+
+}
+
+
+
+@keyframes haloPulse {
+
+
+    0% {
+
+        transform:
+
+        translateX(-50%)
+        scale(1);
+
+        opacity:0.5;
+
+    }
+
+
+    100% {
+
+        transform:
+
+        translateX(-50%)
+        scale(1.15);
+
+        opacity:0.9;
+
+    }
+
+}
