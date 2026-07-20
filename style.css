@@ -3741,7 +3741,23 @@ section {
         box-shadow 0.4s ease;
 
 }
+/* =========================
+   TRANSITIONS DU GARDIEN
+========================= */
 
+.gardien-stoic {
+
+    transition:
+
+        box-shadow 0.6s ease,
+
+        filter 0.6s ease,
+
+        opacity 0.6s ease,
+
+        transform 0.6s ease;
+
+}
 
 
 .gardien-stoic:hover {
