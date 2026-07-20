@@ -4514,3 +4514,35 @@ section {
         opacity 0.5s ease;
 
 }
+/* =========================
+   LOT 20 — STABILISATION DE LA SCÈNE
+========================= */
+
+
+/* Conteneur principal */
+
+.pantheon,
+.contenu-hall {
+
+    box-sizing:border-box;
+
+}
+
+
+/* Préservation du rendu */
+
+.contenu-hall * {
+
+    box-sizing:inherit;
+
+}
+
+
+/* Base stable des éléments */
+
+.element-panthenon,
+.element-sacre {
+
+    backface-visibility:hidden;
+
+}
