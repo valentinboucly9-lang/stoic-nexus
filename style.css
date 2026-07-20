@@ -3013,3 +3013,39 @@ section {
 
 
 }
+/* =========================
+   CITATION DE PLATON
+========================= */
+
+.citation-platon {
+
+    position:absolute;
+
+    bottom:60px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+
+    width:220px;
+
+
+    color:#f5e6b3;
+
+
+    font-size:14px;
+
+
+    font-style:italic;
+
+
+    line-height:1.5;
+
+
+    text-shadow:
+
+        0 0 8px rgba(180,220,255,0.7);
+
+
+}
