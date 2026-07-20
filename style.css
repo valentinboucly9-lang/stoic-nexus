@@ -3225,3 +3225,90 @@ section {
     }
 
 }
+/* =========================
+   CRISTAL DE SAGESSE
+========================= */
+
+.cristal-sagesse {
+
+    position:absolute;
+
+
+    bottom:200px;
+
+
+    left:50%;
+
+
+    transform:translateX(-50%);
+
+
+
+    width:60px;
+
+
+    height:100px;
+
+
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #fff4c4,
+            #d4af37,
+            #8c6b2f
+        );
+
+
+
+    clip-path:
+
+        polygon(
+            50% 0%,
+            85% 25%,
+            100% 70%,
+            50% 100%,
+            0% 70%,
+            15% 25%
+        );
+
+
+
+    box-shadow:
+
+        0 0 25px rgba(255,220,120,0.9),
+
+        0 0 60px rgba(212,175,55,0.6);
+
+
+
+    animation:
+
+        cristalSagessePulse 3s infinite alternate;
+
+
+
+    z-index:5;
+
+}
+
+
+
+@keyframes cristalSagessePulse {
+
+
+    0% {
+
+        filter:brightness(1);
+
+    }
+
+
+    100% {
+
+        filter:brightness(1.4);
+
+    }
+
+}
