@@ -3509,3 +3509,51 @@ section {
     z-index:5;
 
 }
+/* =========================
+   AURA DU GARDIEN STOÏC
+========================= */
+
+.gardien-stoic::after {
+
+    content:"";
+
+    position:absolute;
+
+
+    top:50%;
+
+    left:50%;
+
+
+    width:320px;
+
+    height:320px;
+
+
+    transform:translate(-50%, -50%);
+
+
+    border-radius:50%;
+
+
+    background:
+
+        radial-gradient(
+            circle,
+            rgba(212,175,55,0.35),
+            rgba(212,175,55,0.05),
+            transparent 70%
+        );
+
+
+    box-shadow:
+
+        0 0 60px rgba(212,175,55,0.45);
+
+
+    z-index:1;
+
+
+    pointer-events:none;
+
+}
