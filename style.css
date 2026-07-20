@@ -3765,3 +3765,20 @@ section {
     opacity:1;
 
 }
+/* =========================
+   STABILITÉ DU GARDIEN
+========================= */
+
+.gardien-stoic {
+
+    backface-visibility:hidden;
+
+    will-change:
+
+        transform,
+
+        filter,
+
+        opacity;
+
+}
