@@ -4731,3 +4731,50 @@ section {
         filter 0.6s ease;
 
 }
+/* =========================
+   LOT 25 — ANIMATIONS DU SANCTUAIRE
+========================= */
+
+
+/* Animation lumineuse douce */
+
+.animation-sacree {
+
+    animation:
+
+        souffle-lumiere 4s ease-in-out infinite;
+
+}
+
+
+/* Cycle de respiration */
+
+@keyframes souffle-lumiere {
+
+    0% {
+
+        filter:
+
+            brightness(1);
+
+    }
+
+
+    50% {
+
+        filter:
+
+            brightness(1.15);
+
+    }
+
+
+    100% {
+
+        filter:
+
+            brightness(1);
+
+    }
+
+}
