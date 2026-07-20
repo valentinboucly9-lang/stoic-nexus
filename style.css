@@ -3049,3 +3049,36 @@ section {
 
 
 }
+/* =========================
+   AUTEL DE LA SAGESSE
+========================= */
+
+.autel-sagesse {
+
+    position:absolute;
+
+    top:35%;
+
+    left:50%;
+
+
+    transform:translateX(-50%);
+
+
+    color:#d4af37;
+
+
+    font-size:32px;
+
+
+    letter-spacing:8px;
+
+
+    text-shadow:
+
+        0 0 15px rgba(212,175,55,0.8);
+
+
+    z-index:6;
+
+}
