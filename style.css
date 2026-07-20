@@ -3877,3 +3877,41 @@ section {
     overflow:hidden;
 
 }
+/* =========================
+   LOT 3 — DÉCOR MONUMENTAL
+========================= */
+
+
+/* Présence architecturale des colonnes */
+
+.colonne {
+
+    transition:
+
+        transform 0.6s ease,
+
+        filter 0.6s ease;
+
+}
+
+
+/* Mise en valeur des éléments du Hall */
+
+.contenu-hall {
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/* Profondeur du décor arrière */
+
+.fond-hall {
+
+    position:relative;
+
+    z-index:1;
+
+}
