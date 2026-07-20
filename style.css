@@ -5069,3 +5069,50 @@ section {
     transform-style:preserve-3d;
 
 }
+/* =========================
+   LOT 30 — OPTIMISATION FINALE
+========================= */
+
+
+/* Base commune des éléments Panthéon */
+
+.element-pantheon,
+.element-monument,
+.element-sacre {
+
+    box-sizing:border-box;
+
+}
+
+
+/* Stabilisation des transformations */
+
+.pantheon *,
+.contenu-hall * {
+
+    transform-origin:center;
+
+}
+
+
+/* Protection des effets */
+
+.ambiance-pantheon,
+.gardien-stoic::before {
+
+    pointer-events:none;
+
+}
+
+
+/* Préparation responsive */
+
+@media (max-width:768px) {
+
+    .pantheon {
+
+        perspective:800px;
+
+    }
+
+}
