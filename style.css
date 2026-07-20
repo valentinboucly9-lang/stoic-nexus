@@ -4437,3 +4437,35 @@ section {
         filter 0.4s ease;
 
 }
+/* =========================
+   LOT 18 — ORGANISATION DES ZONES
+========================= */
+
+
+/* Base commune des espaces */
+
+.zone-pantheon {
+
+    position:relative;
+
+    width:100%;
+
+}
+
+
+/* Maintien de l'espace vertical */
+
+.zone-pantheon + .zone-pantheon {
+
+    margin-top:60px;
+
+}
+
+
+/* Protection des éléments internes */
+
+.zone-pantheon > * {
+
+    position:relative;
+
+}
