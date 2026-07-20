@@ -4005,3 +4005,35 @@ section {
         opacity 0.6s ease;
 
 }
+/* =========================
+   LOT 6 — PROFONDEUR AVANCÉE
+========================= */
+
+
+/* Premier plan */
+
+.gardien-stoic,
+.socle-piedestal,
+.inscription-piedestal {
+
+    transform:translateZ(40px);
+
+}
+
+
+/* Plan intermédiaire */
+
+.colonne {
+
+    transform:translateZ(20px);
+
+}
+
+
+/* Arrière-plan */
+
+.fond-hall {
+
+    transform:translateZ(0);
+
+}
