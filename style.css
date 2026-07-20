@@ -2154,3 +2154,50 @@ section {
     }
 
 }
+/* =========================
+   GRAVURES DU SOL
+========================= */
+
+.gravures-sol {
+
+    position:absolute;
+
+    bottom:0;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+
+    width:70%;
+
+    height:40%;
+
+
+    background:
+
+        repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 40px,
+            rgba(212,175,55,0.15) 42px
+        ),
+
+
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 40px,
+            rgba(212,175,55,0.15) 42px
+        );
+
+
+    opacity:0.5;
+
+
+    z-index:4;
+
+
+    pointer-events:none;
+
+}
