@@ -4071,3 +4071,40 @@ section {
     transform-style:preserve-3d;
 
 }
+/* =========================
+   LOT 8 — COHÉRENCE DES MATIÈRES
+========================= */
+
+
+/* Matière pierre */
+
+.colonne,
+.socle-piedestal {
+
+    filter:
+
+        contrast(1.05);
+
+}
+
+
+/* Accent doré */
+
+.inscription-piedestal,
+.plaque-statue {
+
+    letter-spacing:3px;
+
+}
+
+
+/* Lumière sur les éléments sacrés */
+
+.gardien-stoic,
+.symbole-panthenon {
+
+    text-shadow:
+
+        0 0 12px rgba(212,175,55,0.35);
+
+}
