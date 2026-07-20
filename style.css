@@ -4396,3 +4396,44 @@ section {
     pointer-events:none;
 
 }
+/* =========================
+   LOT 17 — STRUCTURE DE TRANSITION
+========================= */
+
+/* Conteneur principal du Panthéon */
+
+.pantheon {
+
+    position:relative;
+
+    isolation:isolate;
+
+}
+
+
+/* Préparation des futures sections */
+
+.section-panthenon {
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/* Base commune des futurs éléments */
+
+.element-panthenon {
+
+    position:relative;
+
+    transition:
+
+        opacity 0.4s ease,
+
+        transform 0.4s ease,
+
+        filter 0.4s ease;
+
+}
