@@ -3843,3 +3843,37 @@ section {
     overflow:visible;
 
 }
+/* =========================
+   LOT 2 — ARCHITECTURE DU HALL
+========================= */
+
+
+/* Profondeur générale du Panthéon */
+
+.contenu-hall {
+
+    perspective:1200px;
+
+    transform-style:preserve-3d;
+
+}
+
+
+/* Stabilisation des colonnes */
+
+.colonne {
+
+    transform-style:preserve-3d;
+
+    backface-visibility:hidden;
+
+}
+
+
+/* Liaison décor / profondeur */
+
+.fond-hall {
+
+    overflow:hidden;
+
+}
