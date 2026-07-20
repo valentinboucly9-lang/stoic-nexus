@@ -4108,3 +4108,49 @@ section {
         0 0 12px rgba(212,175,55,0.35);
 
 }
+/* =========================
+   LOT 9 — CADRE MONUMENTAL DU HALL
+========================= */
+
+
+/* Structure générale */
+
+.contenu-hall {
+
+    min-height:100vh;
+
+    position:relative;
+
+}
+
+
+/* Renforcement du sanctuaire */
+
+.fond-hall {
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+/* Cadre visuel intérieur */
+
+.contenu-hall::before {
+
+    content:"";
+
+    position:absolute;
+
+    inset:20px;
+
+
+    border:1px solid rgba(212,175,55,0.15);
+
+
+    pointer-events:none;
+
+    z-index:1;
+
+}
