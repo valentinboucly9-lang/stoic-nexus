@@ -3793,3 +3793,14 @@ section {
     overflow: visible;
 
 }
+/* =========================
+   HIÉRARCHIE VISUELLE DU GARDIEN
+========================= */
+
+.gardien-stoic {
+
+    position: relative;
+
+    z-index: 10;
+
+}
