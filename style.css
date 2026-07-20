@@ -4192,3 +4192,40 @@ section {
     position:relative;
 
 }
+/* =========================
+   LOT 11 — ATMOSPHÈRE DU SANCTUAIRE
+========================= */
+
+
+/* Brume légère du Panthéon */
+
+.fond-hall::after {
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            rgba(212,175,55,0.06),
+            transparent 65%
+        );
+
+
+    pointer-events:none;
+
+}
+
+
+/* Profondeur atmosphérique */
+
+.contenu-hall {
+
+    isolation:isolate;
+
+}
