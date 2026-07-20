@@ -4948,3 +4948,60 @@ section {
     text-align:center;
 
 }
+/* =========================
+   LOT 28 — SYMBOLES SACRÉS
+========================= */
+
+
+/* Éléments symboliques */
+
+.symbole-sacré,
+.plaque-statue {
+
+    position:relative;
+
+    z-index:4;
+
+    transform-style:preserve-3d;
+
+}
+
+
+/* Plaques monumentales */
+
+.plaque-statue {
+
+    padding:10px 20px;
+
+    border:2px solid #d4af37;
+
+    background:
+
+        linear-gradient(
+            to bottom,
+            #d8c9a0,
+            #8c7a55
+        );
+
+
+    box-shadow:
+
+        0 0 20px rgba(212,175,55,0.25),
+
+        inset 0 0 10px rgba(0,0,0,0.35);
+
+}
+
+
+/* Texte sacré */
+
+.symbole-sacré,
+.inscription-piedestal {
+
+    letter-spacing:3px;
+
+    text-shadow:
+
+        0 0 12px rgba(212,175,55,0.7);
+
+}
