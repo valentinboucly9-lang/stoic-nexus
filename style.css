@@ -4330,3 +4330,34 @@ section {
     opacity:0.95;
 
 }
+/* =========================
+   LOT 15 — ÉQUILIBRE DES CONTRASTES
+========================= */
+
+
+/* Profondeur des zones sombres */
+
+.fond-hall {
+
+    background-color:#080808;
+
+}
+
+
+/* Lisibilité des éléments sacrés */
+
+.message-gardien,
+.inscription-piedestal {
+
+    text-rendering:optimizeLegibility;
+
+}
+
+
+/* Cohérence globale */
+
+.contenu-hall {
+
+    color-scheme:dark;
+
+}
