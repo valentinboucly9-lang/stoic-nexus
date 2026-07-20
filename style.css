@@ -4590,3 +4590,47 @@ section {
     transform-style:preserve-3d;
 
 }
+/* =========================
+   LOT 22 — EFFETS D'APPARITION
+========================= */
+
+
+/* Base d'apparition */
+
+.element-apparition {
+
+    opacity:0;
+
+    transform:
+
+        translateY(20px);
+
+    transition:
+
+        opacity 0.8s ease,
+
+        transform 0.8s ease;
+
+}
+
+
+/* État visible */
+
+.element-apparition.actif {
+
+    opacity:1;
+
+    transform:
+
+        translateY(0);
+
+}
+
+
+/* Conservation profondeur */
+
+.element-apparition {
+
+    transform-style:preserve-3d;
+
+}
