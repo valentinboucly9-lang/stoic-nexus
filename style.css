@@ -3674,3 +3674,19 @@ section {
     }
 
 }
+/* =========================
+   INTÉGRATION DU GARDIEN AU HALL
+========================= */
+
+.gardien-stoic::marker {
+
+    color:transparent;
+
+}
+
+
+.gardien-stoic {
+
+    isolation:isolate;
+
+}
