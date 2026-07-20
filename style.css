@@ -2567,3 +2567,38 @@ section {
     z-index:5;
 
 }
+/* =========================
+   INSCRIPTION DU GARDIEN
+========================= */
+
+.inscription-gardien {
+
+    position:absolute;
+
+    bottom:95px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+
+    color:#f5e6b3;
+
+
+    font-size:16px;
+
+
+    letter-spacing:3px;
+
+
+    white-space:nowrap;
+
+
+    text-shadow:
+
+        0 0 8px rgba(212,175,55,0.8);
+
+
+    z-index:6;
+
+}
