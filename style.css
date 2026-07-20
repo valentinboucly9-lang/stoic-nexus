@@ -4361,3 +4361,38 @@ section {
     color-scheme:dark;
 
 }
+/* =========================
+   LOT 16 — COHÉSION DU GARDIEN
+========================= */
+
+
+/* Regroupement visuel du Gardien */
+
+.gardien-stoic {
+
+    isolation:isolate;
+
+    contain:paint;
+
+}
+
+
+/* Maintien de la hiérarchie */
+
+.gardien-stoic,
+.socle-piedestal,
+.inscription-piedestal {
+
+    z-index:10;
+
+}
+
+
+/* Stabilité des effets */
+
+.gardien-stoic::before,
+.gardien-stoic::after {
+
+    pointer-events:none;
+
+}
