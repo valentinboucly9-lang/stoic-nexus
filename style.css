@@ -5005,3 +5005,67 @@ section {
         0 0 12px rgba(212,175,55,0.7);
 
 }
+/* =========================
+   LOT 29 — AMBIANCE FINALE
+========================= */
+
+
+/* Couche lumineuse principale */
+
+.ambiance-pantheon {
+
+    position:absolute;
+
+    inset:0;
+
+    pointer-events:none;
+
+    z-index:3;
+
+}
+
+
+/* Halo général */
+
+.ambiance-pantheon::before {
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+
+    background:
+
+        radial-gradient(
+            circle at center,
+            rgba(212,175,55,0.12),
+            transparent 65%
+        );
+
+}
+
+
+/* Profondeur atmosphérique */
+
+.fond-hall {
+
+    filter:
+
+        contrast(1.05)
+
+        brightness(0.9);
+
+}
+
+
+/* Stabilité des volumes */
+
+.element-monument,
+.gardien-stoic,
+.plaque-statue {
+
+    transform-style:preserve-3d;
+
+}
