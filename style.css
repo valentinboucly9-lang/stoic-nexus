@@ -4634,3 +4634,48 @@ section {
     transform-style:preserve-3d;
 
 }
+/* =========================
+   LOT 23 — ÉTATS VISUELS DU PANTHÉON
+========================= */
+
+
+/* État verrouillé */
+
+.etat-verrouille {
+
+    opacity:0.45;
+
+    filter:
+
+        grayscale(0.6);
+
+}
+
+
+/* État actif */
+
+.etat-actif {
+
+    opacity:1;
+
+    filter:
+
+        drop-shadow(
+            0 0 15px rgba(212,175,55,0.4)
+        );
+
+}
+
+
+/* Transition entre états */
+
+.etat-verrouille,
+.etat-actif {
+
+    transition:
+
+        opacity 0.5s ease,
+
+        filter 0.5s ease;
+
+}
