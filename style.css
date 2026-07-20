@@ -3690,3 +3690,15 @@ section {
     isolation:isolate;
 
 }
+/* =========================
+   OMBRE DU GARDIEN STOÏC
+========================= */
+
+.gardien-stoic {
+
+    filter:
+        drop-shadow(
+            0 25px 25px rgba(0,0,0,0.65)
+        );
+
+}
