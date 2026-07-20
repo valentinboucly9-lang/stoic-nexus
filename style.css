@@ -3151,3 +3151,77 @@ section {
     }
 
 }
+/* =========================
+   LUMIÈRE DU PIÉDESTAL
+========================= */
+
+.lumiere-piedestal {
+
+    position:absolute;
+
+    bottom:160px;
+
+    left:50%;
+
+
+    transform:translateX(-50%);
+
+
+    width:260px;
+
+    height:180px;
+
+
+    background:
+
+        radial-gradient(
+            ellipse,
+            rgba(255,230,150,0.45),
+            transparent 70%
+        );
+
+
+    filter:blur(15px);
+
+
+    opacity:0.8;
+
+
+    animation:
+
+        lumierePiedestalPulse 4s infinite alternate;
+
+
+    z-index:2;
+
+}
+
+
+
+@keyframes lumierePiedestalPulse {
+
+
+    0% {
+
+        opacity:0.5;
+
+        transform:
+
+        translateX(-50%)
+        scale(1);
+
+    }
+
+
+    100% {
+
+        opacity:1;
+
+        transform:
+
+        translateX(-50%)
+        scale(1.15);
+
+    }
+
+}
