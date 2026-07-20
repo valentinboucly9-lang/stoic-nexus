@@ -2084,3 +2084,73 @@ section {
     }
 
 }
+/* =========================
+   PARTICULES DE LUMIÈRE
+========================= */
+
+.particules-lumiere {
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+
+    width:100%;
+
+    height:100%;
+
+
+    pointer-events:none;
+
+
+    background-image:
+
+        radial-gradient(
+            circle,
+            rgba(255,230,150,0.8) 2px,
+            transparent 3px
+        );
+
+
+    background-size:
+
+        120px 120px;
+
+
+    opacity:0.25;
+
+
+    animation:
+
+        poussiere-lumiere 12s linear infinite;
+
+
+    z-index:6;
+
+}
+
+
+
+@keyframes poussiere-lumiere {
+
+
+    from {
+
+        background-position:
+
+        0 0;
+
+    }
+
+
+    to {
+
+        background-position:
+
+        200px 400px;
+
+    }
+
+}
