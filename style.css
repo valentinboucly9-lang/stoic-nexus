@@ -3713,3 +3713,16 @@ section {
     perspective:800px;
 
 }
+/* =========================
+   HALO SACRÉ DU GARDIEN
+========================= */
+
+.gardien-stoic {
+
+    box-shadow:
+
+        0 0 40px rgba(212,175,55,0.15),
+
+        0 0 80px rgba(212,175,55,0.08);
+
+}
