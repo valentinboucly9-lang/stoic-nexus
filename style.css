@@ -4257,3 +4257,40 @@ section {
         0 0 18px rgba(212,175,55,0.18);
 
 }
+/* =========================
+   LOT 13 — DÉTAILS MONUMENTAUX
+========================= */
+
+
+/* Finition des éléments sacrés */
+
+.plaque-statue,
+.socle-piedestal {
+
+    border-style:solid;
+
+    border-color:#d4af37;
+
+}
+
+
+/* Profondeur des inscriptions */
+
+.inscription-piedestal {
+
+    font-weight:bold;
+
+    text-shadow:
+
+        0 0 12px rgba(212,175,55,0.8);
+
+}
+
+
+/* Cohérence des contours */
+
+.colonne {
+
+    border-radius:4px;
+
+}
