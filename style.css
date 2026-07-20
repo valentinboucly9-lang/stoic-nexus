@@ -2269,3 +2269,38 @@ section {
     }
 
 }
+/* =========================
+   INSCRIPTION DU SANCTUAIRE
+========================= */
+
+.inscription-sanctuaire {
+
+    position:absolute;
+
+    bottom:25px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+
+    color:#d4af37;
+
+
+    font-size:18px;
+
+
+    letter-spacing:4px;
+
+
+    text-shadow:
+
+        0 0 10px rgba(212,175,55,0.8);
+
+
+    white-space:nowrap;
+
+
+    opacity:0.9;
+
+}
