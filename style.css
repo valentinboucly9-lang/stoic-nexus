@@ -2803,3 +2803,91 @@ section {
         inset 0 0 20px rgba(0,0,0,0.4);
 
 }
+/* =========================
+   STATUES PHILOSOPHES
+========================= */
+
+.statue-philosophe {
+
+    position:absolute;
+
+
+    bottom:220px;
+
+
+    left:50%;
+
+
+    transform:translateX(-50%);
+
+
+    width:90px;
+
+
+    height:180px;
+
+
+    background:
+
+        linear-gradient(
+            to right,
+            #d8c9a0,
+            #8c7a55,
+            #d8c9a0
+        );
+
+
+    border-radius:
+
+        45px 45px 20px 20px;
+
+
+    box-shadow:
+
+        0 0 20px rgba(212,175,55,0.25),
+
+        inset 0 0 15px rgba(0,0,0,0.35);
+
+
+    opacity:0.9;
+
+}
+
+
+
+.statue-philosophe::before {
+
+    content:"";
+
+
+    position:absolute;
+
+
+    top:-35px;
+
+
+    left:50%;
+
+
+    transform:translateX(-50%);
+
+
+    width:55px;
+
+
+    height:60px;
+
+
+    border-radius:50%;
+
+
+    background:
+
+        linear-gradient(
+            to bottom,
+            #d8c9a0,
+            #8c7a55
+        );
+
+
+}
