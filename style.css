@@ -3702,4 +3702,14 @@ section {
         );
 
 }
+/* =========================
+   PROFONDEUR DU SANCTUAIRE
+========================= */
 
+.gardien-stoic {
+
+    transform-style:preserve-3d;
+
+    perspective:800px;
+
+}
