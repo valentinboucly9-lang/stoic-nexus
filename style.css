@@ -2602,3 +2602,75 @@ section {
     z-index:6;
 
 }
+/* =========================
+   YEUX LUMINEUX DU GARDIEN
+========================= */
+
+.oeil-gardien {
+
+    position:absolute;
+
+
+    top:25px;
+
+
+    width:8px;
+
+
+    height:8px;
+
+
+    border-radius:50%;
+
+
+    background:#fff0a0;
+
+
+    box-shadow:
+
+        0 0 15px rgba(255,230,120,1),
+
+        0 0 30px rgba(212,175,55,0.8);
+
+
+    animation:
+
+        oeilPulse 3s infinite alternate;
+
+
+}
+
+
+
+.oeil-gardien.gauche {
+
+    left:28px;
+
+}
+
+
+
+.oeil-gardien.droit {
+
+    right:28px;
+
+}
+
+
+
+@keyframes oeilPulse {
+
+    0% {
+
+        opacity:0.6;
+
+    }
+
+
+    100% {
+
+        opacity:1;
+
+    }
+
+}
