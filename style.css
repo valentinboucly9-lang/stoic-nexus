@@ -4546,3 +4546,47 @@ section {
     backface-visibility:hidden;
 
 }
+/* =========================
+   LOT 21 — ÉLÉMENTS INTERACTIFS
+========================= */
+
+
+/* Base des éléments évolutifs */
+
+.element-interactif {
+
+    position:relative;
+
+    cursor:pointer;
+
+    transition:
+
+        transform 0.4s ease,
+
+        filter 0.4s ease,
+
+        opacity 0.4s ease;
+
+}
+
+
+/* Réponse visuelle */
+
+.element-interactif:hover {
+
+    filter:
+
+        drop-shadow(
+            0 0 15px rgba(212,175,55,0.35)
+        );
+
+}
+
+
+/* Maintien de la profondeur */
+
+.element-interactif {
+
+    transform-style:preserve-3d;
+
+}
