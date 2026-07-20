@@ -4778,3 +4778,98 @@ section {
     }
 
 }
+/* =========================
+   LOT 26 — ARCHITECTURE FINALE PANTHÉON
+========================= */
+
+
+/* Scène principale */
+
+.pantheon {
+
+    position:relative;
+
+    width:100%;
+
+    min-height:100vh;
+
+    overflow:hidden;
+
+    perspective:1200px;
+
+    transform-style:preserve-3d;
+
+}
+
+
+/* Hall principal */
+
+.contenu-hall {
+
+    position:relative;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-height:100vh;
+
+    transform-style:preserve-3d;
+
+}
+
+
+/* Fond architectural */
+
+.fond-hall {
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:0;
+
+}
+
+
+/* Couche décorative intermédiaire */
+
+.couche-hall {
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:1;
+
+    pointer-events:none;
+
+}
+
+
+/* Éléments monumentaux */
+
+.element-monument {
+
+    position:relative;
+
+    z-index:2;
+
+    transform-style:preserve-3d;
+
+}
+
+
+/* Préservation des volumes */
+
+.element-monument,
+.contenu-hall,
+.pantheon {
+
+    backface-visibility:hidden;
+
+}
