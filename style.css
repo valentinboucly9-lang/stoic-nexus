@@ -3629,3 +3629,48 @@ section {
     pointer-events:none;
 
 }
+/* =========================
+   RAYONNEMENT DU GARDIEN STOÏC
+========================= */
+
+.gardien-stoic {
+
+    animation:
+
+        gardien-rayonnement 6s ease-in-out infinite;
+
+}
+
+
+@keyframes gardien-rayonnement {
+
+    0% {
+
+        filter:
+            drop-shadow(
+                0 0 15px rgba(212,175,55,0.35)
+            );
+
+    }
+
+
+    50% {
+
+        filter:
+            drop-shadow(
+                0 0 30px rgba(212,175,55,0.65)
+            );
+
+    }
+
+
+    100% {
+
+        filter:
+            drop-shadow(
+                0 0 15px rgba(212,175,55,0.35)
+            );
+
+    }
+
+}
