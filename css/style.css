@@ -4302,17 +4302,6 @@ section {
 
 
 
-/* Contraste pierre antique */
-
-.colonne {
-
-    filter:
-
-        contrast(1.08)
-
-        brightness(0.95);
-
-}
 
 
 /* Accent métal ancien */
