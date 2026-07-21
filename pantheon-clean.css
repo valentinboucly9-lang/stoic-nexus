@@ -1,1 +1,39 @@
 
+/* =========================
+   LOT 10 — HARMONISATION DES ESPACES SACRÉS
+========================= */
+
+
+/* Alignement des zones principales */
+
+.contenu-hall {
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+/* Respiration verticale */
+
+.message-gardien {
+
+    margin-top:40px;
+
+    margin-bottom:40px;
+
+}
+
+
+/* Continuité visuelle */
+
+.gardien-stoic,
+.message-gardien,
+.socle-piedestal {
+
+    position:relative;
+
+}
