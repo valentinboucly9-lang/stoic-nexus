@@ -4300,15 +4300,6 @@ section {
 ========================= */
 
 
-/* Texture générale des éléments anciens */
-
-.colonne,
-.socle-piedestal,
-.plaque-statue {
-
-    background-blend-mode:multiply;
-
-}
 
 
 /* Contraste pierre antique */
