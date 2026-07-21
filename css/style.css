@@ -4883,8 +4883,6 @@ section {
 
 .gardien-stoic {
 
-    position:relative;
-
     z-index:5;
 
     transform-style:preserve-3d;
