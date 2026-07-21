@@ -4367,15 +4367,6 @@ section {
 ========================= */
 
 
-/* Regroupement visuel du Gardien */
-
-.gardien-stoic {
-
-    isolation:isolate;
-
-    contain:paint;
-
-}
 
 
 /* Maintien de la hiérarchie */
