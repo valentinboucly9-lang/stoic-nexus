@@ -4860,3 +4860,14 @@ section {
 .gardien-stoic {
     position:relative;
 }
+.gardien-stoic {
+    z-index:50;
+}
+
+.visage-gardien,
+.armure-gardien,
+.epaules-gardien,
+.bras-gardien,
+.symbole-gardien {
+    z-index:51;
+}
