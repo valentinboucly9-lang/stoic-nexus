@@ -4888,3 +4888,25 @@ section {
 .sceau-gardien {
     z-index: 102;
 }
+.gardien-zone {
+    position: relative;
+    z-index: 100;
+}
+
+.gardien-stoic {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    z-index: 101;
+}
+
+.visage-gardien,
+.armure-gardien,
+.epaules-gardien,
+.bras-gardien,
+.symbole-gardien {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    z-index: 102;
+}
