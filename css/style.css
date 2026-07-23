@@ -4922,3 +4922,7 @@ section {
 .gardien-stoic {
     transform: translateY(10px);
 }
+.gardien-stoic {
+    width: 200px;
+    height: 260px;
+}
