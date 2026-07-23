@@ -4964,3 +4964,6 @@ section {
     width: 200px;
     height: 260px;
 }
+.socle-gardien {
+    position: relative;
+}
