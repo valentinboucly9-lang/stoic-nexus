@@ -1476,7 +1476,7 @@ align-items: center;
 
     top:70px;
 
-    left:-45px;
+    left:80px;
 
     width:35px;
 
@@ -1485,6 +1485,8 @@ align-items: center;
     transform:rotate(-25deg);
 
     z-index:107;
+
+    outline:2px solid red;
 
 }
 
