@@ -4967,3 +4967,43 @@ section {
 .socle-gardien {
     position: relative;
 }
+/* =========================
+   GARDIEN STOÏC — STRUCTURE MAÎTRE
+   ========================= */
+
+.gardien-stoic {
+
+    position:absolute;
+
+    bottom:220px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:90px;
+
+    height:220px;
+
+    background:
+
+        linear-gradient(
+            to right,
+            #d8c9a0,
+            #8c7a55,
+            #d8c9a0
+        );
+
+    border-radius:
+
+        45px 45px 20px 20px;
+
+    box-shadow:
+
+        0 0 30px rgba(212,175,55,0.4),
+
+        inset 0 0 20px rgba(0,0,0,0.4);
+
+    z-index:101;
+
+}
