@@ -1260,6 +1260,96 @@ align-items: center;
     z-index:107;
 
 }
+/* =========================
+   GLAIVE DE PERSÉE
+========================= */
+
+.glaive-persee {
+
+    position:absolute;
+
+    top:55px;
+
+    left:-55px;
+
+
+    width:18px;
+
+    height:150px;
+
+
+    background:
+
+        linear-gradient(
+            to right,
+            #fff1b8,
+            #d4af37,
+            #8c6b2f
+        );
+
+
+    border:
+
+        2px solid #d4af37;
+
+
+    border-radius:
+
+        8px 8px 4px 4px;
+
+
+    transform:
+
+        rotate(-25deg);
+
+
+    box-shadow:
+
+        0 0 25px rgba(212,175,55,0.7),
+
+        inset 0 0 10px rgba(255,255,255,0.5);
+
+
+    z-index:107;
+
+}
+
+
+/* =========================
+   GARDE DU GLAIVE
+========================= */
+
+.garde-glaive-persee {
+
+    position:absolute;
+
+    top:175px;
+
+    left:-75px;
+
+
+    width:55px;
+
+    height:10px;
+
+
+    background:
+
+        linear-gradient(
+            to right,
+            #d4af37,
+            #8c6b2f
+        );
+
+
+    border-radius:10px;
+
+
+    box-shadow:
+
+        0 0 15px rgba(212,175,gold,0.5);
+
+}
 
 
 
