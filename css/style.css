@@ -1484,7 +1484,7 @@ align-items: center;
 
     transform:rotate(-25deg);
 
-    z-index:107;
+    z-index:9999;
 
     outline:2px solid red;
 
