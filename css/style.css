@@ -1555,13 +1555,7 @@ align-items: center;
     height:12px;
 
 
-    background:
-
-        linear-gradient(
-            to bottom,
-            #d4af37,
-            #8c6b2f
-        );
+    background: black;
 
 
     border-radius:10px;
@@ -1601,13 +1595,7 @@ align-items: center;
     height:35px;
 
 
-    background:
-
-        linear-gradient(
-            to right,
-            #4b3621,
-            #8c6b2f
-        );
+    background: black;
 
 
     border-radius:5px;
@@ -1645,13 +1633,7 @@ align-items: center;
     border-radius:50%;
 
 
-    background:
-
-        radial-gradient(
-            circle,
-            #fff0b0,
-            #d4af37
-        );
+    background: black;
 
 
     border:
