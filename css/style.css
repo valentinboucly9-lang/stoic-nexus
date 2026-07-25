@@ -1511,14 +1511,7 @@ align-items: center;
     height:145px;
 
 
-    background:
-
-        linear-gradient(
-            to right,
-            #fff4c4,
-            #d4af37,
-            #8c6b2f
-        );
+    background: black;
 
 
     border:
