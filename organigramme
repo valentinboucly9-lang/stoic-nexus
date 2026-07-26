@@ -1,0 +1,20 @@
+stoic-nexus/
+│
+├── index.html
+├── antichambre.html 
+├── chapitre1.html
+│
+├── css/
+│   ├── style.css
+│   └── chapitre1.css
+│
+├── images/
+│   ├── chapitre1-fond.jpg
+│   ├── gardien.png
+│   └── logo-stoic-nexus.png
+│
+├── audio/
+│   ├── narration-chapitre1.mp3
+│   └── ambiance.mp3
+│
+└── video/
